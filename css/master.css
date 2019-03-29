@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 *{
     text-decoration: none;
     list-style: none;
@@ -25,7 +27,7 @@ header{
 
 .titulo-site h1{
     font-style: italic;
-    font-weight: bold;
+    font-weight: black;
     margin: auto 0;
     font-size: 2.25em;
     margin-left: 15%;
@@ -43,14 +45,93 @@ nav ul{
 }
 
 nav a{
-    width: 20%;
+    width: 15%;
     height: 100%;
+    color: white;
+    font-weight: bold;
 }
 
 nav a:hover{
     background-color: darkorange;
 }
 
-nav a:visited{
-    text-decoration: none;
+nav a li{
+    font-size: 1.35em;
+    margin: 2.5vh 0;
+}
+
+section{
+    background-image: url("../images/robotic\ owl.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.inicio{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.inicio p{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+.foto-perfil{
+    margin: 150px auto 100px auto;
+    border-radius: 100%;
+    width: 22%;
+}
+
+.sobre{
+    background-color: #342D24;
+    color: white;
+    width: 100%;
+    height: 700px;
+    padding: 9vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.titulo-sobre{
+    margin-bottom: 30px;
+}
+
+.titulo-sobre h1{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: "Roboto", Arial;
+}
+
+.textos-sobre{
+    display: flex;
+}
+
+.texto-principal{
+    flex: 1;
+    text-align: justify;
+    line-height: 40px;
+    padding: 30px; 
+}
+
+.texto-principal p{
+    font-size: 1.25em;
+}
+
+.texto-geral{
+    flex: 0.4;
+    text-align: justify;
+    padding: 30px;
+    line-height: 30px;
+    border-left: solid gray 1px;
+}
+
+.info-label{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.25em;
 }
