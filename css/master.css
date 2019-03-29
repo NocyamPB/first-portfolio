@@ -137,7 +137,9 @@ section{
 }
 
 .projetos{
-    background-color: #707070;
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover; 
     height: 1200px;
 }
 
@@ -165,7 +167,7 @@ section{
 
 .contato{
     height: 9vh;
-    background-color: black;
+    background-color:rgb(68, 68, 68);
     display: flex; 
     justify-content: center;
 }
